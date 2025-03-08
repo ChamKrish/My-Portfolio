@@ -1,6 +1,6 @@
-import { ThemeOptions } from "@mui/material";
+import { createTheme } from "@mui/material";
 
-export const theme: ThemeOptions = {
+export const theme = createTheme({
   palette: {
     mode: 'light',
     common: {
@@ -22,46 +22,46 @@ export const theme: ThemeOptions = {
   spacing: 5,
   typography: {
     h1: {
-      fontFamily: 'Inter',
+      fontFamily: 'Inter, sans-serif',
       fontSize: 48,
       fontWeight: 700,
     },
     h2: {
-      fontFamily: 'Inter',
+      fontFamily: 'Inter, sans-serif',
       fontSize: 40,
       fontWeight: 600,
     },
     h3: {
-      fontFamily: 'Inter',
+      fontFamily: 'Inter, sans-serif',
       fontSize: 32,
       fontWeight: 600,
     },
     h4: {
-      fontFamily: 'Inter',
+      fontFamily: 'Inter, sans-serif',
       fontSize: 24,
       fontWeight: 500,
     },
     h5: {
-      fontFamily: 'Inter',
+      fontFamily: 'Inter, sans-serif',
       fontSize: 20,
       fontWeight: 500,
     },
     button: {
-      fontFamily: 'Inter',
+      fontFamily: 'Inter, sans-serif',
       fontSize: 16,
       fontWeight: 500,
     },
     body1: {
-      fontFamily: 'Inter',
+      fontFamily: 'Inter, sans-serif',
       fontSize: 24,
     },
     body2: {
-      fontFamily: 'Inter',
+      fontFamily: 'Inter, sans-serif',
       fontSize: 20,
     },
     caption: {
-      fontFamily: 'Inter',
+      fontFamily: 'Inter, sans-serif',
       fontSize: 16,
     },
   },
-};
+});
