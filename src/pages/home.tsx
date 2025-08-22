@@ -1,7 +1,10 @@
 import React from 'react'
-import Header from '../components/header'
-import Profile from './profile'
 import { Box } from '@mui/material'
+
+import Header from '../components/header'
+import { theme } from '../config/theme'
+import About from './about'
+import Profile from './profile'
 
 const Home: React.FC = () => {
   const styles = useStyles();
@@ -9,16 +12,17 @@ const Home: React.FC = () => {
     <Box sx={styles.container}>
       <Header />
       <Profile />
+      <About />
     </Box>
   )
 }
 
 const useStyles = () => ({
   container: {
-    // display: 'flex',
-    // flexDirection: 'column',
-    // // justfiyContent: 'center',
-    // // alignItems: 'center'
+    display: 'flex',
+    flex: 1,
+    flexDirection: 'column',
+    gap: theme.spacing(2),
   }
 })
 

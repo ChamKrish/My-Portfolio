@@ -57,7 +57,7 @@ const useStyles = () => ({
     color: theme.palette.common.black,
   },
   links: {
-    position: "absolute",
+    // position: "absolute",
     display: "flex",
     flexDirection: "row",
     justifyContent: "center",

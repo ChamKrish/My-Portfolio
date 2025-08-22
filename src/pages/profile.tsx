@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+
 import Button, { ButtonVariant } from '../components/button';
 import { theme } from '../config/theme';
 
@@ -10,7 +11,8 @@ const Profile: React.FC = () => {
 
   const data = {
     title: 'Chamanth Krishna Yarlagadda',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    subTitle: 'Senior Software Enginner I',
+    description: 'Full stack developer building scalable mobile & web applications with modern tech'
   }
 
   return (
@@ -18,6 +20,7 @@ const Profile: React.FC = () => {
       <Box sx={styles.detailsContainer}>
         <Typography sx={styles.heading}>{t('hiThere')}</Typography>
         <Typography sx={styles.title}>{data.title}</Typography>
+        <Typography sx={styles.subTitle}>{data.subTitle}</Typography>
         <Typography sx={styles.description}>{data.description}</Typography>
         <Box sx={styles.buttons}>
           <Button title={t('downloadResume')} variant='dark' />
@@ -33,8 +36,7 @@ const useStyles = () => ({
   container: {
     display: "flex",
     flexDirection: "row",
-    width: 1400,
-    padding: theme.spacing(10, 0),
+    margin: theme.spacing(20, 25),
     alignItems: "center",
     justifySelf: "center"
   },
@@ -46,16 +48,21 @@ const useStyles = () => ({
   },
   heading: {
     ...theme.typography.h2,
-    color: theme.palette.primary.dark
+    color: theme.palette.text.secondary
   },
   title: {
     ...theme.typography.h1,
     color: theme.palette.common.black
   },
+  subTitle: {
+    ...theme.typography.h3,
+    marginTop: theme.spacing(1),
+    color: theme.palette.text.primary
+  },
   description: {
-    ...theme.typography.body1,
-    marginTop: theme.spacing(6),
-    color: theme.palette.primary.dark
+    ...theme.typography.body2,
+    marginTop: theme.spacing(3),
+    color: theme.palette.text.secondary
   },
   buttons: {
     display: "flex",
