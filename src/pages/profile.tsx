@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
-import Button, { ButtonVariant } from '../components/button';
+import Button from '../components/button';
 import { theme } from '../config/theme';
 
 const Profile: React.FC = () => {
