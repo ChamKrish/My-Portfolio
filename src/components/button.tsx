@@ -1,11 +1,7 @@
-import { Box, Button as MuiButton } from '@mui/material';
 import React from 'react'
-import { theme } from '../config/theme';
+import { Button as MuiButton } from '@mui/material';
 
-// export enum ButtonVariant {
-//   Light = 'Light',
-//   Dark = 'Dark'
-// }
+import { theme } from '../config/theme';
 
 export type ButtonVariant = 'light' | 'dark';
 
