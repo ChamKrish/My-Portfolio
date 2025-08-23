@@ -20,10 +20,10 @@ const Header: React.FC = () => {
           <Box sx={styles.links}>
             <Typography component='a' href={'#home'} sx={styles.link}>{t('home')}</Typography>
             <Typography component='a' href={'#about'} sx={styles.link}>{t('about')}</Typography>
-            <Typography component='a' href={'#experience'} sx={styles.link}>{t('experience')}</Typography>
-            <Typography component='a' href={'#projects'} sx={styles.link}>{t('projects')}</Typography>
-            <Typography component='a' href={'#research'} sx={styles.link}>{t('research')}</Typography>
-            <Typography component='a' href={'#contact'} sx={styles.link}>{t('contact')}</Typography>
+            <Typography component='a' href={'#coming-soon'} sx={styles.link}>{t('experience')}</Typography>
+            <Typography component='a' href={'#coming-soon'} sx={styles.link}>{t('projects')}</Typography>
+            <Typography component='a' href={'#coming-soon'} sx={styles.link}>{t('research')}</Typography>
+            <Typography component='a' href={'#coming-soon'} sx={styles.link}>{t('contact')}</Typography>
           </Box>
           <Box sx={styles.icons}>
             <IconButton color="inherit" onClick={() => window.open(linkedinUrl)}>

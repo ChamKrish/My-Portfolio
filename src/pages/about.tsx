@@ -16,7 +16,7 @@ const About: React.FC = () => {
   };
 
   return (
-    <Box sx={styles.container}>
+    <Box id="about" sx={styles.container}>
       <Typography sx={styles.heading}>{t('aboutMe')}</Typography>
       <Typography sx={styles.details} whiteSpace="pre-wrap">{data.details}</Typography>
       <Box sx={styles.icons}>
