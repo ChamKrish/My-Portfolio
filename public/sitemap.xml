@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- ===== HIGHEST PRIORITY PAGES (1.0) ===== -->
+  <!-- Home/Landing Page - Most important -->
+  <url>
+    <loc>https://your-portfolio-domain.com/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- ===== HIGH PRIORITY PAGES (0.9) ===== -->
+  <!-- Projects/Portfolio Showcase - Very important for developers -->
+  <url>
+    <loc>https://your-portfolio-domain.com/projects</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Resume/CV Page - Important for job applications -->
+  <url>
+    <loc>https://your-portfolio-domain.com/resume</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- ===== MEDIUM PRIORITY PAGES (0.8) ===== -->
+  <!-- About Me Page - Personal information -->
+  <url>
+    <loc>https://your-portfolio-domain.com/about</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Skills/Technologies Page -->
+  <url>
+    <loc>https://your-portfolio-domain.com/skills</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Experience/Timeline Page -->
+  <url>
+    <loc>https://your-portfolio-domain.com/experience</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- ===== LOWER PRIORITY PAGES (0.7) ===== -->
+  <!-- Contact Page -->
+  <url>
+    <loc>https://your-portfolio-domain.com/contact</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Blog/Articles Page (if you write content) -->
+  <url>
+    <loc>https://your-portfolio-domain.com/blog</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Services Page (if you offer freelance services) -->
+  <url>
+    <loc>https://your-portfolio-domain.com/services</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- ===== LOWEST PRIORITY PAGES (0.6) ===== -->
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://your-portfolio-domain.com/privacy</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://your-portfolio-domain.com/terms</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- ===== INDIVIDUAL PROJECT PAGES (0.8-0.9) ===== -->
+  <!-- Individual project pages get high priority -->
+  <!-- <url>
+    <loc>https://your-portfolio-domain.com/projects/ecommerce-app</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url> -->
+  
+  <!-- <url>
+    <loc>https://your-portfolio-domain.com/projects/mobile-app</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url> -->
+  
+  <!-- ===== BLOG POST PAGES (0.6-0.7) ===== -->
+  <!-- Individual blog posts -->
+  <!-- <url>
+    <loc>https://your-portfolio-domain.com/blog/react-best-practices</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url> -->
+  
+</urlset>

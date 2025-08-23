@@ -5,6 +5,7 @@ import Header from '../components/header'
 import { theme } from '../config/theme'
 import About from './about'
 import Profile from './profile'
+import ComingSoon from './comingSoon'
 
 const Home: React.FC = () => {
   const styles = useStyles();
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
       <Header />
       <Profile />
       <About />
+      <ComingSoon />
     </Box>
   )
 }

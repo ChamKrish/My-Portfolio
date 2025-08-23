@@ -1,3 +1,38 @@
+# Portfolio Website Robots.txt
 # https://www.robotstxt.org/robotstxt.html
+
+# Allow all search engines to crawl the entire site
 User-agent: *
-Disallow:
+Allow: /
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block access to admin or private areas (if you add them later)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Block access to API endpoints (if you add them later)
+# Disallow: /api/
+
+# Block access to temporary or development files
+Disallow: /temp/
+Disallow: /dev/
+Disallow: /test/
+
+# Crawl delay (optional - tells bots to wait between requests)
+# Crawl-delay: 1
+
+# Sitemap location - UPDATE THIS WITH YOUR ACTUAL DOMAIN
+Sitemap: https://chamanth.yarlagadda.dev/sitemap.xml
+
+# Additional sitemaps (if you create them later)
+# Sitemap: https://chamanth.yarlagadda.dev/sitemap-pages.xml
+# Sitemap: https://chamanth.yarlagadda.dev/sitemap-projects.xml
