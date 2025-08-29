@@ -8,12 +8,13 @@ export type ButtonVariant = 'light' | 'dark';
 interface ButtonProps {
   title: string;
   variant: ButtonVariant;
+  onClick?: () => void;
 }
 
 const Button: React.FC<ButtonProps> = (props) => {
   const styles = useStyles(props.variant);
   return (
-    <MuiButton sx={styles.container}>{props.title}</MuiButton>
+    <MuiButton onClick={props.onClick} sx={styles.container}>{props.title}</MuiButton>
   )
 };
 

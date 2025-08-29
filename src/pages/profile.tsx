@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 
 import Button from '../components/button';
 import { theme } from '../config/theme';
+import { openGoogleDriveDocument, scrollToElement } from '../config/utils';
+import { resumeFileId } from '../constants/Common';
 
 const Profile: React.FC = () => {
   const styles = useStyles();
@@ -14,7 +16,7 @@ const Profile: React.FC = () => {
     subTitle: 'Senior Software Enginner I',
     description: 'Full stack developer building scalable mobile & web applications with modern tech'
   }
-
+  
   return (
     <Box sx={styles.container}> 
       <Box sx={styles.detailsContainer}>
@@ -23,8 +25,8 @@ const Profile: React.FC = () => {
         <Typography sx={styles.subTitle}>{data.subTitle}</Typography>
         <Typography sx={styles.description}>{data.description}</Typography>
         <Box sx={styles.buttons}>
-          <Button title={t('downloadResume')} variant='dark' />
-          <Button title={t('seeMyProjects')} variant='light' />
+          <Button title={t('viewResume')} variant='dark' onClick={() => openGoogleDriveDocument(resumeFileId)} />
+          <Button title={t('seeMyProjects')} variant='light' onClick={() => scrollToElement('coming-soon')} />
         </Box>
       </Box>
       <Box sx={styles.image} />

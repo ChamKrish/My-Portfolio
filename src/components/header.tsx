@@ -6,6 +6,7 @@ import Github from "../assets/github";
 import Linkedin from "../assets/linkedin";
 import Mail from "../assets/mail";
 import { theme } from "../config/theme";
+import { scrollToElement } from "../config/utils";
 import { emailId, githubUrl, linkedinUrl } from "../constants/Common";
 
 const Header: React.FC = () => {
@@ -18,12 +19,12 @@ const Header: React.FC = () => {
         <Toolbar sx={styles.container}>
           <Typography sx={styles.title}>{t('title')}</Typography>
           <Box sx={styles.links}>
-            <Typography component='a' href={'#home'} sx={styles.link}>{t('home')}</Typography>
-            <Typography component='a' href={'#about'} sx={styles.link}>{t('about')}</Typography>
-            <Typography component='a' href={'#coming-soon'} sx={styles.link}>{t('experience')}</Typography>
-            <Typography component='a' href={'#coming-soon'} sx={styles.link}>{t('projects')}</Typography>
-            <Typography component='a' href={'#coming-soon'} sx={styles.link}>{t('research')}</Typography>
-            <Typography component='a' href={'#coming-soon'} sx={styles.link}>{t('contact')}</Typography>
+            <Typography onClick={() => scrollToElement('home')} sx={styles.link}>{t('home')}</Typography>
+            <Typography onClick={() => scrollToElement('about')} sx={styles.link}>{t('about')}</Typography>
+            <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('experience')}</Typography>
+            <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('projects')}</Typography>
+            <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('research')}</Typography>
+            <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('contact')}</Typography>
           </Box>
           <Box sx={styles.icons}>
             <IconButton color="inherit" onClick={() => window.open(linkedinUrl)}>
@@ -70,6 +71,7 @@ const useStyles = () => ({
     color: theme.palette.common.black,
     textDecoration: "none",
     textTransform: "none",
+    cursor: 'pointer'
   } as React.CSSProperties,
   icons: {
     gap: theme.spacing(4)
