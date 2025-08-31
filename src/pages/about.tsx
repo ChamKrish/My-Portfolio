@@ -48,7 +48,8 @@ const useStyles = () => ({
     display: 'flex',
     flexDirection: 'row',
     alignSelf: 'flex-end',
-    gap: theme.spacing(8)
+    gap: theme.spacing(8),
+    marginRight: theme.spacing(8)
   }
 });
 

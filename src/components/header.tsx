@@ -21,7 +21,7 @@ const Header: React.FC = () => {
           <Box sx={styles.links}>
             <Typography onClick={() => scrollToElement('home')} sx={styles.link}>{t('home')}</Typography>
             <Typography onClick={() => scrollToElement('about')} sx={styles.link}>{t('about')}</Typography>
-            <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('experience')}</Typography>
+            <Typography onClick={() => scrollToElement('experience')} sx={styles.link}>{t('experience')}</Typography>
             <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('projects')}</Typography>
             <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('research')}</Typography>
             <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('contact')}</Typography>
