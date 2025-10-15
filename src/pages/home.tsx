@@ -4,7 +4,6 @@ import { Box } from '@mui/material'
 import Header from '../components/header'
 import { theme } from '../config/theme'
 import About from './about'
-import ComingSoon from './comingSoon'
 import Experience from './experience'
 import Profile from './profile'
 
