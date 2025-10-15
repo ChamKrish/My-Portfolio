@@ -2,9 +2,9 @@ import React from "react";
 import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
-import Github from "../assets/github";
-import Linkedin from "../assets/linkedin";
-import Mail from "../assets/mail";
+import Github from "../assets/svg/github";
+import Linkedin from "../assets/svg/linkedin";
+import Mail from "../assets/svg/mail";
 import { theme } from "../config/theme";
 import { scrollToElement } from "../config/utils";
 import { emailId, githubUrl, linkedinUrl } from "../constants/Common";
@@ -22,9 +22,9 @@ const Header: React.FC = () => {
             <Typography onClick={() => scrollToElement('home')} sx={styles.link}>{t('home')}</Typography>
             <Typography onClick={() => scrollToElement('about')} sx={styles.link}>{t('about')}</Typography>
             <Typography onClick={() => scrollToElement('experience')} sx={styles.link}>{t('experience')}</Typography>
-            <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('projects')}</Typography>
+            {/* <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('projects')}</Typography>
             <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('research')}</Typography>
-            <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('contact')}</Typography>
+            <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('contact')}</Typography> */}
           </Box>
           <Box sx={styles.icons}>
             <IconButton color="inherit" onClick={() => window.open(linkedinUrl)}>
@@ -45,7 +45,7 @@ const Header: React.FC = () => {
 
 const useStyles = () => ({
   root: {
-    flex: 1,
+    width: 1,
     backgroundColor: theme.palette.primary.main
   },
   container: {
@@ -58,12 +58,13 @@ const useStyles = () => ({
     color: theme.palette.common.black,
   },
   links: {
-    // position: "absolute",
+    position: "absolute",
     display: "flex",
     flexDirection: "row",
     justifyContent: "center",
     justifySelf: "center",
     alignSelf: "center",
+    left: '45%',
     gap: theme.spacing(10)
   },
   link: {

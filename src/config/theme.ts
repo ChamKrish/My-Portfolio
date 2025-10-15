@@ -59,6 +59,10 @@ export const theme = createTheme({
       fontFamily: 'Inter, sans-serif',
       fontSize: 20,
     },
+    subtitle1: {
+      fontFamily: 'Inter, sans-serif',
+      fontSize: 18,
+    },
     caption: {
       fontFamily: 'Inter, sans-serif',
       fontSize: 16,

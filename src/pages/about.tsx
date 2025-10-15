@@ -2,10 +2,10 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
+import Javascript from '../assets/svg/javascript';
+import ReactIcon from '../assets/svg/reactIcon';
+import Redux from '../assets/svg/redux';
 import { theme } from '../config/theme';
-import ReactIcon from '../assets/reactIcon';
-import Redux from '../assets/redux';
-import Javascript from '../assets/javascript';
 
 const About: React.FC = () => {
   const styles = useStyles();
@@ -34,7 +34,8 @@ const useStyles = () => ({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    margin: theme.spacing(20, 45),
+    width: '75%',
+    margin: theme.spacing(0, 10),
     gap: theme.spacing(4),
   },
   heading: {

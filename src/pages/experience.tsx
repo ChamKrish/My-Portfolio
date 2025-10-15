@@ -24,7 +24,7 @@ const Experience: React.FC = () => {
           location: 'Bengaluru',
           start: 'Apr 2024',
           end: 'Present',
-          description: 'Spearheaded end-to-end development of a cross-platform React Native application used daily by internal teams across 3+ business units, including architecture, sprint planning, testing, and deployment, ensuring <1% production bug rate.\nMentored 3 junior developers and conducted 100+ code reviews, reducing review defects by 35% and improving code quality across the team.'
+          description: 'Achieved <3% production bug rate by spearheading end-to-end development of a cross-platform React Native app used daily by internal teams across 3+ business units, covering architecture, sprint planning, testing, and deployment.\nOptimized API response times by 25% while ensuring 75%+ unit test coverage by building and maintaining a Node.js Backend-for-Frontend (BFF) layer aggregating 5+ backend services via gRPC/HTTP, improving FE-BE efficiency.\nCut initial setup effort by 80% and reduced time-to-market by ~2 weeks per app by creating a scalable React Native boilerplate, adopted across multiple teams to standardize project structure and accelerate development.'
         },
         {
           title: 'Software Engineer 2',
@@ -32,7 +32,7 @@ const Experience: React.FC = () => {
           location: 'Bengaluru',
           start: 'Apr 2023',
           end: 'Mar 2024',
-          description: 'Built and maintained a Node.js BFF layer integrating backend services via gRPC/HTTP, enhancing FE-BE communication for 5+ modules, reducing API response time by 15%, and ensuring 75%+ unit test coverage.\nMaintained and enhanced backend payment service processing ₹5M+ monthly transactions, fixing bugs, releasing patches, and adding features to ensure availability and reliability.'
+          description: 'Improved customer support agent efficiency by 20% by leading Ozonetel integration and collaborating with product, ops, and vendor teams to migrate 100% of operations to in-house web (iframe) and mobile (API) solutions.\nWon IMHAX 2023 (Infra Market Hackathon) by developing an AI-powered system using LLMs + Google Cloud ML APIs to automate pre-sales lead capture from audio transcripts, reducing manual processing time by 70%.\nMaintained and enhanced backend payment service processing ₹5M+ monthly transactions by optimizing transaction workflows and adding EMI interest feature for payments and refunds, ensuring high availability and reliability.\nMentored 3 junior developers and conducted 100+ code reviews, reducing post-review bugs by 35% and improving code quality across the team.'
         },
         {
           title: 'Software Engineer 1',
@@ -40,7 +40,7 @@ const Experience: React.FC = () => {
           location: 'Bengaluru',
           start: 'Jul 2022',
           end: 'Mar 2023',
-          description: 'Implemented micro-frontend architecture (Repack), reducing app load times by 30% and improving development efficiency by 15%.'
+          description: 'Reduced app size by 30% and boosted development efficiency by 15% by implementing micro-frontend architecture (Repack), enabling modular code updates, faster deployments, and independent team workflows.\nImproved feature delivery speed by 20% by designing reusable UI components (filters, category selection, listing templates with pagination & search), adopted across multiple apps.'
         },
         {
           title: 'Software Engineer Intern',
@@ -48,7 +48,7 @@ const Experience: React.FC = () => {
           location: 'Bengaluru',
           start: 'Jan 2022',
           end: 'Jun 2022',
-          description: 'Designed and developed reusable UI components (filters, category selection, listing templates with pagination & search), adopted across multiple apps, reducing feature delivery time by 20%.'
+          description: 'Increased test coverage by 15% through unit and integration testing (Jest), enhancing code reliability.\nImproved release stability by resolving 10+ production bugs in a newly onboarded project, reducing customer-reported issues by 20%.'
         }
       ]
     },
@@ -112,7 +112,6 @@ const useStyles = () => ({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    margin: theme.spacing(20, 45),
     gap: theme.spacing(4),
   },
   heading: {
