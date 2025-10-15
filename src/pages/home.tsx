@@ -16,7 +16,7 @@ const Home: React.FC = () => {
       <Profile />
       <About />
       <Experience />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </Box>
   )
 }
@@ -26,7 +26,9 @@ const useStyles = () => ({
     display: 'flex',
     flex: 1,
     flexDirection: 'column',
-    gap: theme.spacing(2),
+    gap: theme.spacing(20),
+    marginBottom: theme.spacing(30),
+    alignItems: 'center',
   }
 })
 

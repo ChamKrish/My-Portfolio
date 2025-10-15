@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Icon, Typography } from '@mui/material';
 
-import Work from '../assets/work';
+import Work from '../assets/svg/work';
 import { theme } from '../config/theme';
 
 export type QualificationVariant = 'left' | 'right';
@@ -91,6 +91,7 @@ const useStyles = (variant: QualificationVariant) => ({
     display: 'flex',
     flexDirection: 'column',
     gap: theme.spacing(2),
+    width: '80%',
     textAlign: variant === 'right' ? 'start' : 'end'
   },
   title: {
@@ -107,10 +108,11 @@ const useStyles = (variant: QualificationVariant) => ({
   descriptionContainer: {
     display: 'flex',
     flexDirection: 'column',
-    gap: theme.spacing(1)
+    gap: theme.spacing(1.5)
   },
   description: {
-    ...theme.typography.body2,
+    ...theme.typography.subtitle1,
+    lineHeight: 1.55,
     color: theme.palette.text.secondary
   }
 });
