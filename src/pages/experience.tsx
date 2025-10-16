@@ -112,6 +112,7 @@ const useStyles = () => ({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
+    margin: theme.spacing(0, 20),
     gap: theme.spacing(4),
   },
   heading: {

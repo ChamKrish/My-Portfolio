@@ -22,9 +22,9 @@ const Header: React.FC = () => {
             <Typography onClick={() => scrollToElement('home')} sx={styles.link}>{t('home')}</Typography>
             <Typography onClick={() => scrollToElement('about')} sx={styles.link}>{t('about')}</Typography>
             <Typography onClick={() => scrollToElement('experience')} sx={styles.link}>{t('experience')}</Typography>
-            {/* <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('projects')}</Typography>
-            <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('research')}</Typography>
-            <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('contact')}</Typography> */}
+            <Typography onClick={() => scrollToElement('projects')} sx={styles.link}>{t('projects')}</Typography>
+            <Typography onClick={() => scrollToElement('research')} sx={styles.link}>{t('research')}</Typography>
+            {/* <Typography onClick={() => scrollToElement('coming-soon')} sx={styles.link}>{t('contact')}</Typography> */}
           </Box>
           <Box sx={styles.icons}>
             <IconButton color="inherit" onClick={() => window.open(linkedinUrl)}>
@@ -64,7 +64,7 @@ const useStyles = () => ({
     justifyContent: "center",
     justifySelf: "center",
     alignSelf: "center",
-    left: '45%',
+    left: '38%',
     gap: theme.spacing(10)
   },
   link: {

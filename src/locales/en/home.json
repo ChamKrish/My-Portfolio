@@ -9,5 +9,7 @@
   "hiThere": "Hi there! I'm",
   "viewResume": "View Resume",
   "seeMyProjects": "See My Projects",
-  "aboutMe": "About Me"
+  "aboutMe": "About Me",
+  "techStackLabel": "Tech Stack : ",
+  "collaboratorsLabel": "Collaborators : "
 }
