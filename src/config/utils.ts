@@ -16,3 +16,5 @@ export const openGoogleDriveDocument = (fileId: string) => {
   const url = `https://drive.google.com/file/d/${fileId}/view`
   window.open(url, '_blank')
 }
+
+export const openUrl = (url?: string) => !!url && window.open(url)

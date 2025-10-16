@@ -6,6 +6,8 @@ import { theme } from '../config/theme'
 import About from './about'
 import Experience from './experience'
 import Profile from './profile'
+import Projects from './projects'
+import Research from './research'
 
 const Home: React.FC = () => {
   const styles = useStyles();
@@ -15,7 +17,8 @@ const Home: React.FC = () => {
       <Profile />
       <About />
       <Experience />
-      {/* <ComingSoon /> */}
+      <Projects />
+      <Research />
     </Box>
   )
 }
