@@ -58,6 +58,7 @@ const useStyles = () => ({
     flexDirection: 'column',
     width: '80%',
     minHeight: theme.spacing(40),
+    maxHeight: theme.spacing(60),
     padding: theme.spacing(4),
     gap: theme.spacing(2),
     borderRadius: theme.spacing(2),

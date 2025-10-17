@@ -55,8 +55,6 @@ const useStyles = () => ({
   },
   researchCardContainer: {
     display: 'flex',
-    height: '-webkit-fill-available',
-    minWidth: theme.spacing(120)
   }
 });
 
