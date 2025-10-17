@@ -79,7 +79,6 @@ const useStyles = () => ({
   },
   projectContainer: {
     display: 'flex',
-    height: '-webkit-fill-available',
   }
 });
 
